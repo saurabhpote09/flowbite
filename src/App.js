@@ -5,7 +5,7 @@ import Dashboard from "./components/dashboard/Dashboard";
 import './components/dashboard/style.css';
 
 const App = () => {
-  const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isCollapsed, setIsCollapsed] = useState(true);
   const [darkMode, setDarkMode] = useState(true);
 
   return (

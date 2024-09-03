@@ -1,0 +1,9 @@
+[
+    { "date": "01 Feb", "current": 6200, "previous": 6400 },
+    { "date": "02 Feb", "current": 6300, "previous": 4000 },
+    { "date": "03 Feb", "current": 6100, "previous": 6600 },
+    { "date": "04 Feb", "current": 6400, "previous": 2000 },
+    { "date": "05 Feb", "current": 2000, "previous": 6400 },
+    { "date": "06 Feb", "current": 6100, "previous": 3000 },
+    { "date": "07 Feb", "current": 1000, "previous": 6600 }
+  ]

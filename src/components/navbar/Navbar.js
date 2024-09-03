@@ -8,7 +8,7 @@ import { ReactComponent as DarkModeIcon } from "../../assets/DarkMode.svg";
 import { ReactComponent as SearchIcon } from "../../assets/Search.svg";
 import Icon from "../../elements/Icon";
 
-const Navbar = ({ darkMode, setDarkMode,setIsCollapsed,isCollapsed }) => {
+const Navbar = ({ darkMode, setDarkMode, setIsCollapsed, isCollapsed }) => {
   const toggleSidebar = () => {
     setIsCollapsed(!isCollapsed);
   };
@@ -21,7 +21,10 @@ const Navbar = ({ darkMode, setDarkMode,setIsCollapsed,isCollapsed }) => {
       className={`p-3 flex items-center justify-between w-full border-b ${themeClasses}`}
     >
       <div className="flex items-center">
-        <button className="mr-3 p-2 text-gray-400 rounded cursor-pointer"  onClick={toggleSidebar}>
+        <button
+          className="mr-3 p-2 text-gray-400 rounded cursor-pointer"
+          onClick={toggleSidebar}
+        >
           <Icon darkMode={darkMode} IconComponent={MenuIcon} />
         </button>
         <a className="flex items-center" href="/">

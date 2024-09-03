@@ -103,7 +103,7 @@ const Sidebar = ({ darkMode,isCollapsed }) => {
 
             {SubMenus.map((menu) => (
               <li key={menu.label} className="">
-                <a
+                <a href="#"
                   onClick={() => toggleSubMenu(menu.key)}
                   className={`${commonClasses} justify-between cursor-pointer group ${hoverClasses}`}
                 >
