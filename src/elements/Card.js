@@ -12,7 +12,7 @@ const Card = ({ nummber, subtitle, trendNum, trend, children,darkMode }) => {
     <div className="flex items-center">
       <div className="shrink-0">
         <span
-          className={`text-2xl font-bold leading-none ${
+          className={`text-2xl font-bold ${
             darkMode ? "text-white" : "text-black"
           } sm:text-3xl`}
         >
@@ -27,9 +27,9 @@ const Card = ({ nummber, subtitle, trendNum, trend, children,darkMode }) => {
         </h3>
       </div>
       <div
-        className={`ml-5 flex w-0 flex-1 items-center justify-end text-base font-bold ${
+        className={` flex w-0 flex-1 items-center justify-end text-base font-bold ${
           trend === "uptrend" ? "text-green-400" : "text-red-400"
-        }`}
+        }ml-5`}
       >
         {trendNum}
         <div className={`${trend === "uptrend" ? "" : "rotate-180"}`}>

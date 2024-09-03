@@ -32,7 +32,7 @@ const Dashboard = ({ darkMode }) => {
       >
         <LineChartCard data={data3} />
       </Card>
-      <div className="mt-4 grid w-full grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
+      <div className=" grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 mt-4">
         <Card
           darkMode={darkMode}
           nummber={"2,430"}
@@ -62,7 +62,7 @@ const Dashboard = ({ darkMode }) => {
         </Card>
       </div>
 
-      <div className="my-4 grid grid-cols-1 xl:gap-4 2xl:grid-cols-3">
+      <div className=" grid grid-cols-1 xl:gap-4 2xl:grid-cols-3 my-4">
         <div
           className={`mb-4 rounded-lg ${
             darkMode ? "bg-gray-800" : "bg-white"

@@ -3,7 +3,7 @@ import React from 'react'
 const TransactionTable = ({ transactions, darkMode }) => {
   return (
     <div className="overflow-x-auto">
-    <table className={`w-full text-left text-sm min-w-full divide-y ${darkMode ? 'text-gray-400 divide-gray-400' : 'text-gray-500 divide-gray-200'}`}>
+    <table className={`w-full text-left text-sm divide-y ${darkMode ? 'text-gray-400 divide-gray-400' : 'text-gray-500 divide-gray-200'}`}>
       <thead className={`text-xs uppercase ${darkMode ? 'text-gray-400 bg-gray-700' : 'text-gray-700 bg-gray-50'}`}>
         <tr>
           <th className="px-4 py-3 sm:px-6">Transaction</th>

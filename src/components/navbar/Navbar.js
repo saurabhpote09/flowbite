@@ -37,9 +37,9 @@ const Navbar = ({ darkMode, setDarkMode, setIsCollapsed, isCollapsed }) => {
             Flowbite
           </span>
         </a>
-        <form className="ml-16 hidden md:block">
+        <div className="ml-16 hidden md:block">
           <div className="relative w-full">
-            <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+            <div className="absolute top-0 bottom-0 left-0 flex items-center pl-3 pointer-events-none">
               <Icon darkMode={darkMode} IconComponent={SearchIcon} />
             </div>
             <input
@@ -55,7 +55,7 @@ const Navbar = ({ darkMode, setDarkMode, setIsCollapsed, isCollapsed }) => {
               required
             />
           </div>
-        </form>
+        </div>
       </div>
       <div className="flex items-center gap-3">
         <div className="p-2 rounded-lg hover:text-white group">
