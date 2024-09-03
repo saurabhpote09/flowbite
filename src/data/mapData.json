@@ -1,0 +1,47 @@
+{
+    "name": "World Map",
+    "backgroundColor": "#ffffff",
+    "borderColor": "#000000",
+    "defaultFill": "#cccccc",
+    "hoverColor": "#f0f0f0",
+    "selectedColor": "#ff0000",
+    "regions": [
+      {
+        "id": "US",
+        "name": "United States",
+        "path": "M10,10 L90,10 L90,90 L10,90 Z",
+        "fill": "#b0c4de",
+        "stroke": "#000000"
+      },
+      {
+        "id": "CA",
+        "name": "Canada",
+        "path": "M20,20 L80,20 L80,80 L20,80 Z",
+        "fill": "#add8e6",
+        "stroke": "#000000"
+      },
+      {
+        "id": "MX",
+        "name": "Mexico",
+        "path": "M30,30 L70,30 L70,70 L30,70 Z",
+        "fill": "#ffcccb",
+        "stroke": "#000000"
+      },
+      {
+        "id": "BR",
+        "name": "Brazil",
+        "path": "M40,40 L60,40 L60,60 L40,60 Z",
+        "fill": "#ffeb3b",
+        "stroke": "#000000"
+      },
+      {
+        "id": "FR",
+        "name": "France",
+        "path": "M50,50 L90,50 L90,90 L50,90 Z",
+        "fill": "#ff5722",
+        "stroke": "#000000"
+      }
+     
+    ]
+  }
+  

@@ -17,6 +17,9 @@ import BarChartStacked from "../../elements/BarChartStacked";
 import BarChartCard from "../../elements/BarChartCard";
 import LineChartCardGradient from "../../elements/LineChartCardGradient";
 import PiechartStack from "../../elements/PiechartStack";
+import country from "../../data/Country.json";
+import MapWorld from "./MapWorld";
+import Progesslist from "../../elements/Progesslist";
 
 const COLORS = ["#00C49F", "#FFBB28", "#0088FE", "#FF8042", "#8884D8"];
 
@@ -25,7 +28,7 @@ const Dashboard = ({ darkMode }) => {
     <>
       <Card
         darkMode={darkMode}
-        nummber={"$45,385"}
+        number={"$45,385"}
         subtitle={"Sales this week"}
         trend={"uptrend"}
         trendNum={"14.6%"}
@@ -35,7 +38,7 @@ const Dashboard = ({ darkMode }) => {
       <div className=" grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 mt-4">
         <Card
           darkMode={darkMode}
-          nummber={"2,430"}
+          number={"2,430"}
           subtitle={"New products this week"}
           trendNum={"14.6%"}
           trend={"uptrend"}
@@ -44,7 +47,7 @@ const Dashboard = ({ darkMode }) => {
         </Card>
         <Card
           darkMode={darkMode}
-          nummber={"5,355"}
+          number={"5,355"}
           subtitle={"Visitor this week"}
           trendNum={"32.9%"}
           trend={"uptrend"}
@@ -53,7 +56,7 @@ const Dashboard = ({ darkMode }) => {
         </Card>
         <Card
           darkMode={darkMode}
-          nummber={"385"}
+          number={"385"}
           subtitle={"Visitor this week"}
           trendNum={"-2.7%"}
           trend={"downtrend"}
@@ -63,11 +66,16 @@ const Dashboard = ({ darkMode }) => {
       </div>
 
       <div className=" grid grid-cols-1 xl:gap-4 2xl:grid-cols-3 my-4">
-        <div
-          className={`mb-4 rounded-lg ${
-            darkMode ? "bg-gray-800" : "bg-white"
-          } p-4 shadow sm:p-6 xl:mb-0 xl:p-8 2xl:col-span-2`}
-        />
+        <div className={` h-full 2xl:col-span-2`}>
+          <InfoCard
+            darkMode={darkMode}
+            title={"Sessions by country"}
+            subtitle={"View website visitors by hovering over the map"}
+          >
+            <MapWorld />
+            <Progesslist country={country} darkMode={darkMode}/>
+          </InfoCard>
+        </div>
         <div className="grid gap-4 sm:grid-cols-2 2xl:grid-cols-1">
           <InfoCard title={"Latest Customers"} darkMode={darkMode}>
             <ul
@@ -113,13 +121,15 @@ const Dashboard = ({ darkMode }) => {
           </InfoCard>
         </div>
       </div>
-      <InfoCard
-        title="Transactions"
-        darkMode={darkMode}
-        subtitle="This is a list of latest transactions"
-      >
-        <TransactionTable transactions={transactions} darkMode={darkMode} />
-      </InfoCard>
+      <div className="mb-4">
+        <InfoCard
+          title="Transactions"
+          darkMode={darkMode}
+          subtitle="This is a list of latest transactions"
+        >
+          <TransactionTable transactions={transactions} darkMode={darkMode} />
+        </InfoCard>
+      </div>
       <Footer darkMode={darkMode} />
     </>
   );

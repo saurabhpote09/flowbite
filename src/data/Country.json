@@ -1,0 +1,57 @@
+[
+    {
+      "country": "United States",
+      "percentage": 35,
+      "svgPath": "M0 0H30V20H0V0ZM0 0H14V10H0V0ZM0 12H14V14H0V12ZM16 12H30V14H16V12ZM0 16H30V18H0V16ZM16 0H30V2H16V0ZM16 4H30V6H16V4ZM16 8H30V10H16V8Z",
+      "fillColor": "#B22234"
+    },
+    {
+      "country": "Canada",
+      "percentage": 26,
+      "svgPath": "M0 0H10V20H0V0ZM20 0H30V20H20V0ZM10 0H20L15 10L10 0Z",
+      "fillColor": "#FF0000"
+    },
+    {
+      "country": "France",
+      "percentage": 18,
+      "svgPath": "M0 0H10V20H0V0ZM10 0H20V20H10V0ZM20 0H30V20H20V0Z",
+      "fillColor": "#0055A4"
+    },
+    {
+      "country": "Italy",
+      "percentage": 14,
+      "svgPath": "M0 0H10V20H0V0ZM10 0H20V20H10V0ZM20 0H30V20H20V0Z",
+      "fillColor": "#009246"
+    },
+    {
+      "country": "Germany",
+      "percentage": 22,
+      "svgPath": "M0 0H30V10H0V0ZM0 10H30V15H0V10ZM0 15H30V20H0V15Z",
+      "fillColor": "#000000"
+    },
+    {
+      "country": "Brazil",
+      "percentage": 20,
+      "svgPath": "M0 10L15 0L30 10L15 20L0 10ZM15 10C17.2091 10 19 8.20914 19 6C19 3.79086 17.2091 2 15 2C12.7909 2 11 3.79086 11 6C11 8.20914 12.7909 10 15 10Z",
+      "fillColor": "#009C3B"
+    },
+    {
+      "country": "Australia",
+      "percentage": 15,
+      "svgPath": "M0 0H30V20H0V0ZM7 7L9 9L7 11L5 9L7 7ZM15 3L17 5L15 7L13 5L15 3ZM23 7L25 9L23 11L21 9L23 7ZM15 10L17 12L15 14L13 12L15 10ZM7 13L9 15L7 17L5 15L7 13Z",
+      "fillColor": "#00205B"
+    },
+    {
+      "country": "Japan",
+      "percentage": 12,
+      "svgPath": "M0 0H30V20H0V0ZM15 7C17.2091 7 19 8.79086 19 11C19 13.2091 17.2091 15 15 15C12.7909 15 11 13.2091 11 11C11 8.79086 12.7909 7 15 7Z",
+      "fillColor": "#BC002D"
+    },
+    {
+      "country": "United Kingdom",
+      "percentage": 10,
+      "svgPath": "M0 0H30V20H0V0ZM3 0V3L27 17V20L3 7V20L27 3V0L3 17V0Z",
+      "fillColor": "#00247D"
+    }
+  ]
+  
